@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1 id="title">Hello, MuffinHavlop</h1>
+    <div id="informationBox">
+        <h2>What task would you like to add?</h2>
+        <p>+ Working out schedule 💪🏋️</p>
+        <p>+ Write a book about your daily lives 🖊️📖</p>
+        <p>+ Finish some homework ➕➖✖️➗</p>
+        <p>+ Buy a new phone 📱</p>
+        <p>+ Learn some new cooking recipies 🍳🧑‍🍳</p>
+        <p>+ Make a Youtube video 🎥</p>
+        <p>+ And many more . . .</p>
+    </div>
+    <div id="Demo">
+        <label for="newtask"></label>
+        <input id="newtask" type="text">
+        <button id="Add" onclick="
+        let newsetTask = newtask;
+        newTask();
+        ">+</button>
+    </div>
+    <button onclick="
+    registration();
+    ">SignMeUp!</button>
+</body>
