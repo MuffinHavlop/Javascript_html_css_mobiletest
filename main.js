@@ -8,5 +8,6 @@ function registration(){
 }
 function newTask(){
     newestTask = document.getElementById('newtask').value;
-    alert(`${newestTask} has been succesfully added!`)
+    titleNewTodoList.textContent = 'New to do list!';
+    newlist.textContent = `+ ${newestTask}`;
 }
