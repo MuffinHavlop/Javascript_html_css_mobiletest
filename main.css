@@ -1,41 +1,41 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
 body{
-    font-family:Verdana, sans-serif;
     text-align: center;
 }
 h1{
-    text-align: center;
     font-size: 50px;
     text-shadow: 5px 10px 40px 20px #d4d4d4;
 }
 #title{
     margin-top: 10%;
-    font-size: 50px;
+    font-size: 300%;
     text-shadow: 5px 10px 40px 20px #d4d4d4;
 }
 p{
-    font-size: 15px;
+    font-size: 175%;
 }
 #informationBox{
     text-align: left;
-    padding: 10px;
-    margin-top: 5%;
+    padding-left: 3%;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
     border-radius: 20px;
     box-shadow: 5px 10px 60px 20px #d4d4d4;
     border-style: dashed;
-    border-width: 5px;
-    width: 90%;
+    border-width: 3px;
+    width: 95%;
 }
 button{
     margin-top: 5%;
     padding: 15px;
-    font-size: 40px;
+    font-size: 200%;
     border-radius: 20px;
     box-shadow: 5px 10px 60px 20px #d4d4d4;
     border-style: dashed;
-    border-width: 5px;
+    border-width: 3px;
 }
 button:hover{
     background-color: #b1b1b1;
@@ -51,8 +51,9 @@ button:active{
     border-radius: 15px;
     font-size: 40px;
     border-style: dashed;
-    border-width: 5px;
+    border-width: 3px;
     box-shadow: 5px 10px 60px 20px #d4d4d4;
+    background-color: white;
 }
 #Add{
     margin-left: 2%;
@@ -69,4 +70,10 @@ button:active{
     margin-right: auto;
     border-radius: 20px;
     width: 90%;
+}
+#newlist{
+    font-size: 200%;
+}
+#titleNewTodoList{
+    text-align: center;
 }
